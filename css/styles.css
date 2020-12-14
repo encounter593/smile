@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/screen-top.css";
+@import "components/screen-main.css";
+@import "components/screen-bottom.css";
+
+/* Screens */
+@import "screens/chatting.css";
+@import "screens/chat-room.css";
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: rgb(29, 29, 29);
+  color: rgb(243, 243, 243);
+}
+
+@keyframes btnHover {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 600px) {
+  body {
+    color: pink;
+  }
+}

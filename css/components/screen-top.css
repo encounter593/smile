@@ -1,0 +1,36 @@
+.screen-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 20px 0px 20px;
+}
+.screen-top__full-name {
+  font-weight: 600;
+}
+.screen-top__on-off {
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+}
+.screen-top__on-icon {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--point-color);
+  font-size: 9px;
+  margin-right: 5px;
+}
+.screen-top__column:last-child {
+  display: flex;
+  align-items: center;
+}
+.screen-top__user-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: tomato;
+}

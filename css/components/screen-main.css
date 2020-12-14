@@ -1,0 +1,32 @@
+.screen-main {
+  position: relative;
+  margin: 20px 10px 0px 20px;
+}
+.screen-main__title {
+  font-weight: 600;
+}
+.screen-main__description {
+  display: block;
+  margin: 15px 0px 0px 10px;
+  font-size: 15px;
+}
+.screen-main__btn {
+  position: fixed;
+  bottom: 110px;
+  right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: var(--sub-color);
+  color: var(--point-color);
+  box-shadow: 5px 5px 5px black;
+}
+.screen-main__btn i {
+  margin-right: 5px;
+}
+.screen-main__btn:hover {
+  animation: btnHover 1s ease-in-out;
+}
